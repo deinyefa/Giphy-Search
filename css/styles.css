@@ -1,0 +1,39 @@
+html {
+  background-color: #2D2D2D;
+}
+body {
+  padding: 1em 10% 1em;
+}
+img {
+  width: 100%;
+}
+article {
+  padding: 0;
+}
+div {
+  height: 100%;
+}
+/* Search Form */
+.input-field {
+  margin-left: 26%;
+  width: 40%;
+}
+.field {
+  margin-bottom: 2em;
+}
+/* Search Form */
+
+/* Main Section */
+.tile {
+  padding-right: 0 !important;
+}
+.tile .is-child {
+  margin-bottom: 0.5em !important;
+}
+/* .Main Section */
+
+/* Load More Button */
+.see_more {
+  margin-top: 1em;
+}
+/* /Load More Button */
