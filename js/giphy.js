@@ -64,8 +64,8 @@ $(document).ready(function() {
 		searchTerm != ''
 			? (xhrTempSearchTerm = `${xhrSearchTerm(
 					searchTerm
-				)}&offset=${(offset += 1)}`)
-			: (xhrTempSearchTerm = `${xhrTrending}&offset=${(offset += 1)}`);
+				)}&offset=${(offset += 25)}`)
+			: (xhrTempSearchTerm = `${xhrTrending}&offset=${(offset += 25)}`);
 		$.get(xhrTempSearchTerm, displayPhotos);
 	});
 });
